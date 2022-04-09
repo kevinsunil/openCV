@@ -25,5 +25,5 @@ cv.imshow('Eroded', eroded)
 
 #Resize
 resized =cv.resize(img, (500,500), interpolation = cv.INTER_CUBIC)
-cv.imshow('Resized', resize)
+cv.imshow('Resized', resized)
 cv.waitKey(0)
